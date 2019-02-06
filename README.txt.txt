@@ -1,3 +1,6 @@
-- test.py program koji validira uspešnost vašeg rešenja nad train skupom podataka (na osnovu res.txt i out.txt)
-- res.txt tacno rešenje za svaki video zapis (kombinacija ime fajla i suma cifara)
-- out.txt fajl u koji je potrebno upisati rezultat koje je vaš program izracunao (trenutno su sve nule)
+Definicija problema:
+  Video zapis poseduje jednu pokretnu liniju koja je uvek iste boje. 
+  Liniju detektovati koriscenjem Hough transformacije. 
+  Cifre se krecu za slucajan broj koraka i prolaze iza pokretne linije. 
+  Potrebno je izvrsiti sabiranje svih cifara koje prodju ispod linije. 
+  Potrebno je postici tacnost prepoznavanja od bar 90%.
